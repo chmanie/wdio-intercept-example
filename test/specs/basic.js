@@ -12,6 +12,6 @@ describe('webdriver.io page', () => {
         const requests = browser.getRequests()
         assert.strictEqual(requests.length, 0)
 
-        assert.strictEqual(title, 'WebdriverIO · Next-gen browser automation test framework for Node.js')
+        assert.strictEqual(title, 'WebdriverIO · Next-gen browser and mobile automation test framework for Node.js')
     })
 })

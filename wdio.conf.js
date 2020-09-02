@@ -164,9 +164,6 @@ exports.config = {
      */
     // before: function (capabilities, specs) {
     // },
-    before: function() {
-        require('ts-node').register({ files: true })
-    },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
